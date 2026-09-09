@@ -1,4 +1,3 @@
-cat > /Users/jaehyeong/Desktop/Khuda_ai_engineering/week1/fastapi.py << 'EOF'
 from fastapi import FastAPI, HTTPException
 
 app = FastAPI()
@@ -28,4 +27,3 @@ def convert(value: float, from_unit: str, to_unit: str):
         "to_unit": to_unit,
         "result": round(result, 6)
     }
-EOF
